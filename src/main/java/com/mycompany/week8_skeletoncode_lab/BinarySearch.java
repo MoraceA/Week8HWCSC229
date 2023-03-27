@@ -8,9 +8,19 @@ package com.mycompany.week8_skeletoncode_lab;
  *
  * @author MoaathAlrajab
  */
-public class BinarySearch {
 
-    public static int runBinarySearchIteratively(
+
+  //ToDo 2: Call the above method and test the algorithm  
+    // provide time and space analysis 
+//The space complexity below is O(1)
+//The time complexity below is O(log(n))
+
+
+public class BinarySearch {
+    
+
+
+    public static int binarySearch(
             int[] sortedArray, int key, int low, int high) {
         int index = Integer.MAX_VALUE;
 
@@ -27,7 +37,6 @@ public class BinarySearch {
         }
         return index;
     }
-    //ToDo 2: Call the above method and test the algorithm  
-    // provide time and space analysis 
+  
 
 }
